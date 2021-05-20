@@ -1,10 +1,11 @@
 #!/bin/bash
 # to run 
-# chmod +x Assignment3.sh
-# bash Assigment3.sh
+# chmod +x TarArchiver.sh
+# bash TarArchiver.sh
 #
 # The script is working for each case of the assignment but the file already exists case works only if you hit enter after each file you enter,
 # the compiler will give a warning instead if you try to enter all on one line. Also the script has to be ended by using ctr+d 
+
 i=0
 echo Enter files to tar:
 while read file ; do
